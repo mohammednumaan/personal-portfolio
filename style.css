@@ -1,5 +1,8 @@
 /* ROOT */
-
+@font-face {
+    font-family: source;
+    src: url('./source-code-font.ttf');
+}
 :root{
     --bgColor : #8858c5
     --blackColor : '#101820FF'
@@ -18,7 +21,7 @@ body{
     .about-me-card{
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 15px;
         padding: 10px;
     }
 }
@@ -47,7 +50,7 @@ body{
     align-items: center;
 
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     max-width: 1000px;
     min-height: 200px;
 
@@ -65,9 +68,14 @@ body{
     max-width: 500px;
 }
 
-.about-me-content > h1, 
+.character-image{
+    margin-left: 30px;
+}
+
+
+.about-me-content > h2, 
 .about-me-content > p{
-    font-family: sans-serif;
+    font-family: source;
 }
     
 
