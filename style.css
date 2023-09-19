@@ -42,7 +42,6 @@ body{
 
 .about-me-header{
     margin: 0px;
-    padding-left: 600px;
     padding-top: 10px;
     background-color: #8858c5;
     font-family: source;
@@ -50,6 +49,7 @@ body{
 
 .about-me-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
