@@ -24,6 +24,11 @@ body{
         margin: 15px;
         padding: 10px;
     }
+
+    .my-work-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -76,6 +81,47 @@ body{
 .about-me-content > h2, 
 .about-me-content > p{
     font-family: source;
+}
+
+
+/* MY WORK */
+
+.my-work-header{
+    font-family: source;
+    margin-left: 40px;
+}
+
+.my-work-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+    font-family: source;
+}
+
+.my-work-card{
+    margin: 10px;
+}
+
+.card-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    max-width: 400px;
+
+}
+
+.card-content > h2{
+    padding: 5px;
+    background-color: #8858c5;
 }
     
 
