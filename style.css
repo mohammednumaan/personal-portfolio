@@ -15,9 +15,11 @@ body{
     margin: 0;
 }
 
+
+
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:800px) {
     .about-me-card{
         display: flex;
         flex-direction: column;
@@ -28,15 +30,34 @@ body{
     .my-work-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .my-work-header{
+
+        margin-bottom: 3240px;
+    }
+
+    .contact-me-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contact-content > h1{
+        margin-right: 800px;
+    }
+
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen  and (min-width: 810px) {
     .about-me-card{
         margin: 50px;
     }
-}
 
+}
 
 /* ABOUT ME */
 
@@ -95,8 +116,12 @@ body{
 /* MY WORK */
 
 .my-work-header{
+    /* margin-left: 60px; */
+    
     font-family: source;
-    margin-left: 40px;
+    position: absolute;
+    margin-top: -50px;
+
 }
 
 .my-work-container{
@@ -104,8 +129,10 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    margin-top: 80px;
 
     font-family: source;
+    flex-wrap: wrap;
 }
 
 .my-work-card{
@@ -120,7 +147,8 @@ body{
     align-items: center;
     padding: 17px;
 
-    border-radius: 10px;
+    border-radius: 16px;
+    border: 1px solid #8858c5;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     max-width: 400px;
@@ -131,6 +159,49 @@ body{
     padding: 5px;
     background-color: #8858c5;
 }
+
+.card-content > img{
+
+    border: 2px solid #8858c5;
+    border-radius: 10px;
+}
+
+.card-content > p{
+    color: #8858c5;
+}
+
+/* CONTACT ME */
+
+.contact-me-container{
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: source;
+    background-color: #8858c5;
+    height: 400px;
+}
+
+.contact-content > h1{
+    margin-left: 650px;
+}
+
+
+.contact-content > p{
+    text-wrap: wrap;
+    color: black;
+    font-weight: 800;
+    margin-top: -200px;
+    margin-left: 690px;
+}
+
+.contact-character{
+    margin-left: 450px; 
+}
+
+.github-icon{
+    margin-top: 10px;
+    margin-left: 750px;
+}
+
     
-
-
