@@ -32,14 +32,21 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 20px;
     }
+
+    .my-work-card{
+        margin-left: 0px;
+    }
+
+    
 
     .my-work-header{
 
-        margin-bottom: 3240px;
+        margin-bottom: 3100px;
     }
 
-    .contact-me-container{
+    /* .contact-me-container{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -48,16 +55,18 @@ body{
 
     .contact-content > h1{
         margin-right: 800px;
-    }
+    } */
 
 }
 
-@media only screen  and (min-width: 810px) {
+@media only screen  and (min-width: 801px) {
     .about-me-card{
         margin: 50px;
     }
 
 }
+
+
 
 /* ABOUT ME */
 
@@ -73,8 +82,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
     background-color: #8858c5;
 }
 
@@ -133,10 +140,6 @@ body{
 
     font-family: source;
     flex-wrap: wrap;
-}
-
-.my-work-card{
-    margin: 10px;
 }
 
 .card-content{
