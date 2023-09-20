@@ -31,14 +31,22 @@ body{
 
     .my-work-card{
         margin-left: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        width: 300px;
+    
+    }
+
+    .bs {
+
+        width: 200px;
+
     }
 
     
 
     .my-work-header{
 
-        margin-bottom: 3170px;
+        margin-bottom: 3750px;
     }
 
 }
@@ -46,6 +54,12 @@ body{
 @media only screen  and (min-width: 801px) {
     .about-me-card{
         margin: 50px;
+    }
+
+    .bs {
+
+        width: 400px;
+
     }
 
 }
