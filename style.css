@@ -3,10 +3,6 @@
     font-family: source;
     src: url('./source-code-font.ttf');
 }
-:root{
-    --bgColor : #8858c5
-    --blackColor : '#101820FF'
-}
 
 /* BODY */
 
@@ -14,8 +10,6 @@ body{
 
     margin: 0;
 }
-
-
 
 /* MEDIA QUERIES */
 
@@ -46,17 +40,6 @@ body{
 
         margin-bottom: 3170px;
     }
-
-    /* .contact-me-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .contact-content > h1{
-        margin-right: 800px;
-    } */
 
 }
 
@@ -176,7 +159,7 @@ body{
 
 /* CONTACT ME */
 
-.contact-me-container{
+/* .contact-me-container{
 
     display: flex;
     flex-direction: column;
@@ -206,6 +189,6 @@ body{
 .github-icon{
     margin-top: 10px;
     margin-left: 750px;
-}
+} */
 
     
