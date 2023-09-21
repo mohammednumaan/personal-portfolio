@@ -11,6 +11,10 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:800px) {
@@ -47,6 +51,12 @@ body{
     .icon{
         margin-right: 80px;
     }
+
+    .contact-info{
+        margin: 10px;
+        padding: 30px;
+    }
+
 }
 
 @media only screen  and (min-width: 801px) {
@@ -67,6 +77,7 @@ body{
     .my-work-header{
         margin-top: -56px;
     }
+
 
 }
 
@@ -180,38 +191,73 @@ body{
 
 }
 
-/* CONTACT ME */
+CONTACT ME 
 
-/* .contact-me-container{
-
-    display: flex;
-    flex-direction: column;
+.contact-me-container{
 
     font-family: source;
     background-color: #8858c5;
-    height: 400px;
+    width: auto;
+
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    font-family: source;
+    background-color: #8858c5;
+    width: auto;
+    min-height: 450px;
 }
 
 .contact-content > h1{
-    margin-left: 650px;
+
+    text-align: center;
+    padding: 30px;
 }
 
 
-.contact-content > p{
-    text-wrap: wrap;
+.contact-info{
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: black;
     font-weight: 800;
-    margin-top: -200px;
-    margin-left: 690px;
 }
 
 .contact-character{
-    margin-left: 450px; 
+    margin-right: -100px;
+    height: auto;
 }
 
 .github-icon{
+    
     margin-top: 10px;
-    margin-left: 750px;
-} */
+    margin-right: 50px;
+    
+} 
+
+.gmail-icon{
+    position: absolute;
+    margin-top :-36px;
+}
+
+.github-icon:hover, .gmail-icon:hover{
+    animation: rotateIcon 0.5s ease-in-out 0.25s alternate;
+}
+
+@keyframes rotateIcon {
+    from{
+        transform: rotate();
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
 
     
