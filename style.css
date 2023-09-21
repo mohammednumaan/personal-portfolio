@@ -9,6 +9,7 @@
 body{
 
     margin: 0;
+    padding: 0;
 }
 
 a{
@@ -50,6 +51,13 @@ a{
 
     .icon{
         margin-right: 80px;
+    }
+
+    .contact-me-container{
+        width: 100%;
+    }
+    .contact-info{
+        padding: 20px;
     }
 
 
@@ -94,6 +102,9 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #8858c5;
+    
+    
+    
 }
 
 .about-me-card{
@@ -193,7 +204,7 @@ CONTACT ME
 
     font-family: source;
     background-color: #8858c5;
-    width: auto;
+    
 
 }
 
@@ -226,7 +237,9 @@ CONTACT ME
 }
 
 .contact-character{
-    margin-right: -100px;
+    padding-left: 80px;
+    width: 200px;
+    margin: 0;
     height: auto;
 }
 
